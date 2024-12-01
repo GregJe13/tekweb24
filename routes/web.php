@@ -19,3 +19,7 @@ Route::get('about',function(){
 Route::get('contact',function(){
     return view('datadiri');
 });
+
+Route::get('login',function(){
+    return view('login');
+});
